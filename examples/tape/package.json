@@ -1,0 +1,15 @@
+{
+  "name": "tape-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape index.js | tap-spec"
+  },
+  "author": "Jim Fitzpatrick <fitzpatrick.jim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}

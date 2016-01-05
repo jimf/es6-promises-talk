@@ -25,14 +25,14 @@ describe('Dummy component', function() {
             beforeEach(function() {
                 jasmine.Ajax.stubRequest('https://randomuser.me/api/')
                     .andReturn({
-                        responseText: JSON.stringify({ randomUserData: true })
+                        responseText: JSON.stringify({ name: 'Jim' })
                     });
             });
 
             it('should return resolved promise', function(done) {
                 subject.model.getRandomUser()
                     .then(function(data) {
-                        expect(data).toEqual({ randomUserData: true });
+                        expect(data).toEqual({ name: 'Jim' });
                         done();
                     })
                     .catch(done.fail);
@@ -67,12 +67,12 @@ describe('Dummy component', function() {
                 spyOn(subject.model, 'getRandomUser').and.returnValue(
                     Promise.resolve({ name: 'Jim' })
                 );
-                spyOn(subject, 'renderUser');
+                spyOn(subject, 'setState');
                 subject.onRandomUserClick().then(done);
             });
 
-            it('should render user', function() {
-                expect(subject.renderUser).toHaveBeenCalledWith({
+            it('should update state', function() {
+                expect(subject.setState).toHaveBeenCalledWith({
                     name: 'Jim'
                 });
             });
