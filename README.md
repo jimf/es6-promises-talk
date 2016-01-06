@@ -21,7 +21,7 @@ follow the directions specified in the sub-README.
 MIT
 
 [BucksCoJS]: http://www.meetup.com/Bucks-Co-Js/events/227589650/
-[promises-spec]: https://promisesaplus.com/
+[promise-spec]: https://promisesaplus.com/
 [jasmine]: https://github.com/jasmine/jasmine
 [mocha]: https://github.com/mochajs/mocha
 [tape]: https://github.com/substack/tape
