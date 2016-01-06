@@ -12,7 +12,7 @@ module.exports = function(config) {
         files: [
             'node_modules/phantomjs-polyfill/bind-polyfill.js',
             'node_modules/es6-promise/dist/es6-promise.js',
-            'index.js'
+            'test.js'
         ],
 
         // list of files to exclude

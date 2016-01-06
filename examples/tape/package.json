@@ -2,9 +2,8 @@
   "name": "tape-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "tape index.js | tap-spec"
+    "test": "tape test.js | tap-spec"
   },
   "author": "Jim Fitzpatrick <fitzpatrick.jim@gmail.com>",
   "license": "MIT",
