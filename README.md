@@ -14,7 +14,7 @@ examples using three different TDD stacks: [jasmine][jasmine], [mocha][mocha]
 and [tape][tape].
 
 To get started with this repo, navigate to any of the example directories and
-follow the directions specified in the sub-README.
+follow the directions specified in the respective README.
 
 ## License
 
