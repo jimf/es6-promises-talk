@@ -1,5 +1,7 @@
 # ES6 Promises Talk
 
+[Slides][slides]
+
 In this repo you'll find the unit testing code examples used within my
 [Bucks County JS][BucksCoJS] meetup talk on [ES6 promises][promise-spec].
 The code is divided into two sections. `lib` contains a single `DummyComponent`
@@ -49,3 +51,4 @@ MIT
 [jasmine]: https://github.com/jasmine/jasmine
 [mocha]: https://github.com/mochajs/mocha
 [tape]: https://github.com/substack/tape
+[slides]: https://speakerdeck.com/jimf/a-look-at-es6-promises
